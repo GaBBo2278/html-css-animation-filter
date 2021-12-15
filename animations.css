@@ -64,7 +64,7 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(1);
+    filter: grayscale(0.5) sepia(0.5);
 }
 /* FINE ESERCIZIO 7 */
 
@@ -74,7 +74,7 @@
 }
 
 .ex-8-img:hover{
-    filter: sepia(1);
+    filter: sepia(1) blur(1px);
     border-radius: 20px;
 }
 /* FINE ESERCIZIO 8 */
@@ -87,7 +87,7 @@
 .ex-9-img:hover{
     transform: scale(1.5);
     border-radius: 20px;
-    filter: sepia(1);
+    filter: sepia(1) blur(2px);
 }
 /* FINE ESERCIZIO 9 */
 
